@@ -1,0 +1,303 @@
+body {
+    overflow-x: hidden;
+
+}
+
+.header {
+    height: 100px;
+}
+
+.firstcol {
+    background-color: white;
+}
+
+.logo {
+    margin-left: 270px;
+    height: 35px;
+    margin-top: -84px;
+    opacity: 1;
+    margin-bottom: 5px;
+}
+
+.w3div {
+
+    margin-top: 55px;
+    font-family: cursive;
+}
+
+.font2 {
+    font-family: cursive;
+    margin-top: -80px;
+    margin-left: 185px;
+    color: #4CAF50;
+
+}
+
+.font3 {
+    color: black;
+    float: right;
+    margin: -35px;
+    margin-right: 10px;
+    font-family: cursive;
+}
+
+.bg-light {
+    background-color: #4CAF50 !important;
+    box-shadow: 2px 3px 5px;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+    font-size: 17px;
+    padding: 8px 16px;
+    font-weight: 400;
+    font-family: "Segoe UI", Arial, sans-serif;
+    letter-spacing: 4px;
+    line-height: 45px;
+}
+
+.navbar-light .navbar-brand:hover {
+    background-color: white;
+    box-shadow: 2px 1px 2px 1px gray;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    padding-right: 15px;
+    padding-left: 15px;
+    letter-spacing: 4px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    line-height: 45px;
+    font-size: 17px;
+
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 2px 1px 2px 1px gray;
+}
+
+.navbar-light .navbar-toggler {
+
+    background-color: white;
+    margin-right: 16px;
+}
+
+button:focus {
+    outline: 2px auto white;
+}
+
+.navbar {
+    font-size: 25px;
+    padding: 0px;
+}
+
+.block1 {
+    max-height: max-content;
+    overflow-y: scroll;
+    background-color: #eee;
+    height: 600px;
+    position: inherit;
+}
+
+.csshead {
+    margin-top: -16px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    padding: 16px;
+    width: max-content;
+    margin-left: -16px;
+}
+
+a:hover {
+    text-decoration: none;
+    box-shadow: 2px 2px 2px grey;
+    color: #4CAF50;
+}
+
+a {
+    color: black;
+}
+
+.main {
+    background-color: white;
+    max-height: 500px;
+    position: static;
+}
+
+.maintext {
+    margin-top: 100px;
+}
+
+.htmllearn {
+    text-align: center;
+    color: #555555;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.htmllearn2 {
+    text-align: center;
+    color: #555555;
+}
+
+.buttons {
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.buttons:hover {
+    background-color: #eee;
+    color: black;
+}
+
+.bannerbuttons {
+    text-align: -webkit-center;
+}
+
+.main2 {
+    background-color: white;
+    max-height: 500px;
+    position: static;
+}
+
+.bootcard {
+    margin-top: 45px;
+    margin-left: 10px;
+    margin-right: 45px;
+    box-shadow: -1px 2px 5px gray;
+}
+
+.card {
+    height: 400px;
+}
+
+.cardh {
+    font-weight: 400;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.try {
+    background-color: #4CAF50;
+    border-radius: 0px;
+    color: white;
+
+}
+
+.try:hover {
+    background-color: #4CAF50;
+    box-shadow: 2px 2px 5px gray;
+    color: white;
+}
+
+.block2 {
+    background-color: #f1f1f1;
+    height: 500px;
+    padding: 2.5rem;
+    margin-top: 12.5rem;
+    margin-left: 10px;
+}
+
+.frame {
+    background-color: white;
+    height: 340px;
+    border-left: 3px solid #4CAF50;
+}
+
+.cssfontdesign {
+    color: brown;
+    font-weight: 500;
+    font-family: Consolas, "courier new";
+}
+
+.cssbackground {
+    color: red;
+    margin-left: 18px;
+    font-weight: 500;
+    font-family: Consolas, "courier new";
+}
+
+.lightblue {
+    color: blue;
+    font-weight: 500;
+    font-family: Consolas, "courier new";
+
+}
+
+.btn-light {
+    margin-top: 20px;
+}
+
+.cssbanner {
+    background-color: #f1f1f1;
+    height: 500px;
+    margin-left: 10px;
+    margin-top: 58px;
+
+}
+
+.bannertext {
+    margin-top: 80px;
+
+}
+
+@media screen and (max-width:768px) {
+
+    .w3div {
+        text-align: center;
+        font-family: cursive;
+        height: 140px;
+        margin-top: -40px;
+    }
+
+    .font {
+        margin-right: 170px;
+        position: absolute;
+        margin-top: 90px;
+
+    }
+
+    .logo {
+        height: 50px;
+        margin-left: 110px;
+        margin-top: 87px;
+        position: absolute;
+    }
+
+    .font2 {
+        text-align: center;
+        font-family: cursive;
+        margin-right: 78px;
+        margin-top: 90px;
+        position: absolute;
+    }
+
+    .block1 {
+        display: none;
+    }
+
+    .bootcard {
+        margin-top: 100px;
+        margin-left: 18px;
+        margin-right: 18px;
+        box-shadow:3px 5px 5px grey;
+    }
+
+    .block2 {
+        display: none;
+    }
+
+    .cssbanner {
+        background-color: #f1f1f1;
+        height: 500px;
+        padding: 15px;
+        margin-top: 150px;
+        margin:10px;
+    }
+}
+
+.bannertext {
+    margin-top: 60px;
+}
